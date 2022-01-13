@@ -20,7 +20,19 @@ We must be able to:
 
 # Assumptions going into the assignment.
 * The program is meant to take the yaml as input and provision the resources similar to the aformentioned tools (CloudFormation, etc.) hence why they are off limits.
-* While the evaluator does not have experience with my chosen language or creating virtual machines, I am working under the assumption they have at least some limited AWS proficency as it isn't explicity stated that they do not. Therefore, I will assume they can login to the AWS Console, create permissions, opening a terminal, and generally navigate the AWS platform. I will not be providing step-by-step instructions for this, but will be including my inputs and requirements.
+* While the evaluator does not have experience with my chosen language or creating virtual machines, I am working under the assumption they have at least some limited AWS and technical proficency as it isn't explicity stated that they do not. Therefore, I will assume they can login to the AWS Console, create permissions, opening a terminal, generally navigate the AWS platform, and download/navigate to the files. I will not be providing step-by-step instructions for this, but will be including my inputs and requirements.
+
+# Instructions
+Make sure that python is installed
+
+Instructions for CentOS:
+`yum install -y python3`
+
+Install PyYaml which will allow us to use the yaml file as input with our program:
+`pip install awscli boto3 pyyaml`
+
+Run the script:
+`python launch.py
 
 # Documentation
 
