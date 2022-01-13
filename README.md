@@ -26,13 +26,16 @@ We must be able to:
 Make sure that python is installed
 
 Instructions for CentOS:
+
 `yum install -y python3`
 
 Install PyYaml which will allow us to use the yaml file as input with our program:
+
 `pip install awscli boto3 pyyaml`
 
 Run the script:
-`python launch.py
+
+`python launch.py`
 
 # Documentation
 
