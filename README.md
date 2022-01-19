@@ -50,3 +50,7 @@ How to make an EBS volume available for use on Linux
 
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-using-volumes.html
 
+Setting inbound rules with boto3
+
+https://boto3.amazonaws.com/v1/documentation/api/latest/guide/ec2-example-security-group.html
+
