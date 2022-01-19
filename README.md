@@ -43,5 +43,10 @@ Boto3 Documentation
 https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html
 
 Using Boto3 to launch new EC2 instances
+
 https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/ec2.html#EC2.ServiceResource.create_instances
+
+How to make an EBS volume available for use on Linux
+
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-using-volumes.html
 
